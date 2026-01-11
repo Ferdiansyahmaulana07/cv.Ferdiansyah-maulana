@@ -18,6 +18,8 @@ import Tools9 from "/assets/tools/expressjs.jpg";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 import Tools12 from "/assets/tools/Laravel.jpeg";
+import Tools13 from "/assets/tools/MySQL.png";
+import Tools14 from "/assets/tools/PostgreSQL.png";
 
 export const listTools = [
   {
@@ -104,6 +106,20 @@ export const listTools = [
     ket: "Framework App",
     dad: "1200",
   },
+  {
+    id: 13,
+    gambar: Tools13,
+    nama: "MySql",
+    ket: "Database",
+    dad: "1300",
+  },
+  {
+    id: 14,
+    gambar: Tools14,
+    nama: "PostgreSQL",
+    ket: "Database",
+    dad: "1400",
+  },
 ];
 
 import Proyek1 from "/public/assets/proyek/WEBSITE E-COMMERCE.jpg";
@@ -113,7 +129,7 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "Website E-COMMERCE",
-    desk: "Website Cosmetic mengunakan React dan Laravel",
+    desk: "The Cosmetic website uses React Typescript as the frontend and Laravel for the backend, and I use MySQL as the database.",
     tools: ["HTML", "TAILWIND", "REACT", "TYPESCRIPT", "LARAVEL"],
     dad: "200",
   },

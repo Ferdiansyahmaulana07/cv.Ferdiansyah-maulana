@@ -12,7 +12,8 @@ function App() {
           <q>Kode yang indah,lahir dari ketekunan.</q>
         </div>
         <h1 className="text-5xl/tight font-bold mb-6 ">Hi,Saya Ferdiansyah Maulana</h1>
-        <p className="text-base/loose mb-6 opacity-50">Fresh Graduate Web Developer pengalaman freelance sebagai Website Developer menggunakan React.js dan Next.js. Memiliki pemahaman dalam pengembangan dan maintenance website, REST API, serta manajemen database. Terbiasa membuat proyek mandiri untuk meningkatkan kemampuan teknis. Cepat belajar, adaptif, dan siap berkontribusi secara maksimal sebagai full-time developer dalam lingkungan kerja profesional.</p>
+        <p className="text-base/loose mb-6 opacity-50">
+        Fresh Graduate Web Developer with freelance experience as a Website Developer using React.js and Next.js. Strong understanding of website development and maintenance, REST APIs, and database management. Experienced in developing independent projects to enhance technical skills. Fast learner, adaptable, and ready to contribute maximally as a full-time developer in a professional work environment.</p>
         <div className="flex items-center sm:gap-4 gap-2">
           <a
             href="/assets/tools/CV-Ferdiansyah-Maulana.pdf"
@@ -32,7 +33,7 @@ function App() {
 
     {/*About*/}
     <div id="tentang" className="tentang mt-32 py-10">
-      <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up">
+      {/* <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up">
       <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy"/>
         <p className="text-base/loose mb-10">
           Hi,Let me introduce myself, my name is Ferdiansyah Maulana, I am a fullstack developer, I believe that design and functionality must go hand in hand, so that the projects I develop not only look attractive but also provide comfort and functions that run smoothly and well.
@@ -54,11 +55,11 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="tools mt-32">
-       <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up">Tools yang dipakai</h1>
-       <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up">Beberapa tools yang biasa saya pakai untuk pembuatan website</p>
+       <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up">Tools I use</h1>
+       <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up">Some tools that I usually use to create websites</p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
 
           {listTools.map(tool =>(
