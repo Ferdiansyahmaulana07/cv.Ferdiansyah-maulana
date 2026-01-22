@@ -4,9 +4,9 @@ const Footer = () => {
         <h1 className="text-2xl font-bold">Portofolio</h1>
         <div className="flex gap-7">
             <a href="#beranda"
-            className="hover:bg-red-700 rounded-3xl">Beranda</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#project">Project</a> 
+            className="hover:text-gray-700">Beranda</a>
+            <a href="#tentang" className="hover:text-gray-700">Tentang</a>
+            <a href="#project" className="hover:text-gray-700">Project</a> 
         </div>
         <div className="flex items-center gap-3">
 

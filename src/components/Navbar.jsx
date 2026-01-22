@@ -77,7 +77,7 @@ const Navbar = () => {
             <li key={item}>
               <a
                 href={`#${item}`}
-                className="text-lg font-medium text-white"
+                className="text-lg font-medium text-white hover:text-zinc-600"
                 onClick={() => setOpen(false)}
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}

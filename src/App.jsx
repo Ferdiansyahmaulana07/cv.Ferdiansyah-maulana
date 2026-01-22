@@ -93,9 +93,17 @@ function App() {
                     <p className="py-1 px-3 border border-zinc-700 bg-zinc-600 rounded-md font-semibold" key={index}>{tool}</p>
                   ))}
                 </div>
-                <div className="mt-8 text-center">
-                  <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">View website</a>
-                </div>
+               <div className="mt-8 text-center">
+              <a
+                href={project.website ? project.website : project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
+              >
+                {project.website ? "View Website" : "View on my GitHub ❤️"}
+              </a>
+            </div>
+
               </div>
           </div>
         ))}

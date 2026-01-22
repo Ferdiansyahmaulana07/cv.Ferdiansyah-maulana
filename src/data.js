@@ -20,6 +20,8 @@ import Tools11 from "/assets/tools/figma.png";
 import Tools12 from "/assets/tools/Laravel.jpeg";
 import Tools13 from "/assets/tools/MySQL.png";
 import Tools14 from "/assets/tools/PostgreSQL.png";
+import Tools15 from "/assets/tools/midtrans.jpeg";
+import Tools16 from "/assets/tools/vercel.jpeg";
 
 export const listTools = [
   {
@@ -120,9 +122,25 @@ export const listTools = [
     ket: "Database",
     dad: "1400",
   },
+  {
+    id: 15,
+    gambar: Tools15,
+    nama: "Midtrans",
+    ket: "Tools backend",
+    dad: "1500",
+  },
+  {
+    id: 16,
+    gambar: Tools16,
+    nama: "Vercel",
+    ket: "Tools Deploy ",
+    dad: "1600",
+  },
 ];
 
 import Proyek1 from "/public/assets/proyek/WEBSITE E-COMMERCE.jpg";
+import Proyek2 from "/public/assets/proyek/Booking-Hotel.png";
+import Proyek3 from "/public/assets/proyek/Pusat-Spare-Part.png";
 
 export const listProyek = [
   {
@@ -132,5 +150,27 @@ export const listProyek = [
     desk: "The Cosmetic website uses React Typescript as the frontend and Laravel for the backend, and I use MySQL as the database.",
     tools: ["HTML", "TAILWIND", "REACT", "TYPESCRIPT", "LARAVEL"],
     dad: "200",
+    website: null,
+    github: "https://github.com/Ferdiansyahmaulana07/Shayna-ecommerce.git",
+  },
+   {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Wesite Booking Hotel",
+    desk: "The Cosmetic website uses React Typescript as the frontend and Laravel for the backend, and I use MySQL as the database.",
+    tools: ["TAILWIND", "TYPESCRIPT", "Vercel", "Midtrans"],
+    dad: "300",
+    website: null,
+    github: "https://github.com/Ferdiansyahmaulana07/hotel-booking-app.git",
+  },
+   {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Ecommerce-MUP",
+    desk: "The Cosmetic website uses React Typescript as the frontend and Laravel for the backend, and I use MySQL as the database.",
+    tools: ["TAILWIND", "Javascript", "NextJs", "Redux", "Laravel", "MySQL"],
+    dad: "400",
+    website: "https://www.pusat-sparepart.com/",
+    github: null,
   },
 ];
