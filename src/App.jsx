@@ -28,7 +28,7 @@ function App() {
           </a>
         </div>
       </div>
-      <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"/>
+      <img src={DataImage.HeroImage} alt="Hero Image" className="w-[600px] h-[750px] md:mx-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"/>
      </div>
 
     {/*About*/}
