@@ -28,12 +28,12 @@ function App() {
           </a>
         </div>
       </div>
-      <img src={DataImage.HeroImage} alt="Hero Image" className="w-[600px] h-[750px] md:mx-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"/>
+      <img src={DataImage.HeroImage} alt="Hero Image" className="w-[600px] h-[750px] md:mx-auto animate__animated animate__fadeInUp animate__delay-4s rounded-md" loading="lazy"/>
      </div>
 
     {/*About*/}
-    <div id="tentang" className="tentang mt-32 py-10">
-      {/* <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up">
+    {/* <div id="tentang" className="tentang mt-32 py-10">
+      <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up">
       <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy"/>
         <p className="text-base/loose mb-10">
           Hi,Let me introduce myself, my name is Ferdiansyah Maulana, I am a fullstack developer, I believe that design and functionality must go hand in hand, so that the projects I develop not only look attractive but also provide comfort and functions that run smoothly and well.
@@ -57,7 +57,7 @@ function App() {
         </div>
       </div> */}
 
-      <div className="tools mt-32">
+      {/* <div className="tools mt-32"> */}
        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up">Tools I use</h1>
        <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up">Some tools that I usually use to create websites</p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -73,8 +73,8 @@ function App() {
           ))}
 
         </div>
-      </div>
-    </div>
+      {/* </div>
+    </div> */}
 
       {/*Projek*/}
     <div id="project" className="project mt-32 py-10">
